@@ -1,0 +1,78 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de l'entête */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img.icon {
+    width: 350px; /* Ajuste la taille selon tes préférences */
+    height: 350px; /* Ajuste la taille selon tes préférences */
+    margin-bottom: 1px;
+}
+
+/* Styles du conteneur de la couverture */
+.cover-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Styles du profil */
+.profile-header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Styles des icônes de réseaux sociaux */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons a.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.5rem;
+}
+
+.social-icons a.btn:hover {
+    background-color: white;
+    color: #343a40;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
